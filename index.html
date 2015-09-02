@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600|Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="heading-section">
+		<ul>
+			<li><img src="images/shopping-basket-icon.jpg" alt="Shopping basket icon" height="130px" width="130px"></li>
+			<li><h1>Shopping List</h1></li>
+			<li><img src="images/shopping-basket-icon.jpg" alt="Shopping basket icon" height="130px" width="130px"></li>
+		</ul>
+	</header>
+
+	<section class="input-section">
+		<div class="content">
+			<p>Add the items you need below, tick them off as you go and delete them when you're done.</p>
+			<div class="list">
+				<input id="item-value" class="input-text" type="text" placeholder="Add item">
+				<input id ="submit-item" type="submit" value="Add">
+			</div>
+		</div>
+	</section>
+
+	<section class="item-list-section">
+	<div class="content">
+		<ul class="item-list">
+			<li>
+				<button class="checkbox">&#x2713;</button>
+				<span>Milk</span>
+				<button class="delete">x</button>
+			</li>
+			<li>
+				<button class="checkbox">&#x2713;</button>
+				<span>Eggs</span>
+				<button class="delete">x</button>
+			</li>
+			<li>
+				<button class="checkbox">&#x2713;</button>
+				<span>Flour</span>
+				<button class="delete">x</button>
+			</li>
+		</ul>
+	</div>
+	</section>
+
+	<section class="clear-list">
+		<div class="content">
+			<button class="clear-all">Clear List</button>
+		</div>
+	</section>
+</body>
+</html>
