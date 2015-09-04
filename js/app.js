@@ -32,7 +32,7 @@ function checkItem() {
 // Function to delete an item from the shopping list
 
 function deleteItem() {
-	
+	$(this).parent().remove();
 }
 
 
@@ -49,7 +49,16 @@ function deleteItem() {
 
 $(function() {
 	var add = $('#submit-item');
+	var list = $('.item-list');
+	var itemValue = $('#item-value');
+
     add.on('click', addItem);
+    list.on('click','.delete', deleteItem);
+    itemValue.on('keypress', function(e){
+    	if (e.which == 13) {
+    		addItem();
+    	}
+    });
     /*
     checkItem();
     deleteItem();
