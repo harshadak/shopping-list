@@ -90,7 +90,7 @@ body {
 .content {
 	text-align: center;
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
 }
 
 .input-section, .item-list-section, .clear-list-section {
@@ -120,7 +120,7 @@ body {
 }
 
 .input-section .input-text {
-	width: 50%;
+	width: 60%;
 	height: 2rem;
 	border: 1px solid #D8D8D8;
 	border-radius: 0.25rem;
@@ -152,8 +152,7 @@ body {
 }
 
 .item-list-section .item-list li {
-	font-size: 1.15rem;
-	text-align: center;
+	font-size: 1rem;
 	margin: 1.25rem;
 	/*width: 10rem;*/
 }
@@ -178,7 +177,7 @@ body {
 }
 
 .item-list-section .item-list span {
-	margin-right: 20rem;
+	margin-right: 26rem;
 }
 
 
