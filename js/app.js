@@ -39,13 +39,13 @@ function deleteItem() {
 
 // Function to clear all the items from the shopping list
 
-/*function clearAll() {
-	$(".clear-list").on("click", ".clear-all", function(){
-    	$(".item-list").empty();
+function clearAll() {
+	$(document).on('click', '.clear-all', function(){
+    	$('.item-list').empty();
     	submissions = 0;
 });
-	console.log("Items deleted");
-}*/
+	console.log('Items deleted');
+}
 
 $(function() {
 	var add = $('#submit-item');
