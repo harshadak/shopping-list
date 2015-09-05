@@ -194,6 +194,15 @@ body {
 	/*border: 1px solid purple;*/
 }
 
+/* Adding tick class for Toggling */
+
+.tick {
+	display: block;
+	background-color: purple;
+	color: #fff;
+	font-weight: 300;
+}
+
 
 
 

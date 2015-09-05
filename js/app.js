@@ -40,10 +40,12 @@ function deleteItem() {
 // Function to clear all the items from the shopping list
 
 function clearAll() {
-	$(document).on('click', '.clear-all', function(){
+
+	$('.item-list').children().remove();
+	/*$(document).on('click', '.clear-all', function(){
     	$('.item-list').empty();
     	console.log('Items deleted');
-	});
+	});*/
 }
 
 $(function() {
@@ -53,15 +55,10 @@ $(function() {
 
     add.on('click', addItem);
     list.on('click','.delete', deleteItem);
+    $('.clear-all').on('click', clearAll);
     itemValue.on('keypress', function(e){
     	if (e.which == 13) {
     		addItem();
     	}
     });
-    /*
-    checkItem();
-    deleteItem();
-    clearAll();
-    */
-  
-    });
+});
