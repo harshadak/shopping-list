@@ -147,13 +147,12 @@ body {
 /* Item list section CSS */
 
 .item-list-section {
-	height: 10rem;
 	text-transform: uppercase;
 }
 
 .item-list-section .item-list li {
 	font-size: 1rem;
-	margin: 1.25rem;
+	margin: 1.25rem 0;
 	/*width: 10rem;*/
 }
 
@@ -165,19 +164,26 @@ body {
 .item-list-section .item-list li button:hover {
 	color: #fff;
 	background-color: #FF3F3F;
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 .item-list-section .item-list .checkbox {
-	float: left;
+	text-align: center;
+	width: 10%;
+	/*border: 1px solid red;*/
 }
 
 .item-list-section .item-list .delete {
-	float: right;
+	text-align: center;
+	width: 10%;
+	/*border: 1px solid green;*/
 }
 
 .item-list-section .item-list span {
-	margin-right: 26rem;
+	width: 80%;
+	text-align: left;
+	display: inline-block;
+	/*border: 1px solid purple;*/
 }
 
 
@@ -204,25 +210,8 @@ body {
 
 /* Responsive design */
 
-@media only screen and (max-width: 1100px) {
-	
-	.heading-section li h1 {
-		font-size: 5rem;
-		padding: 0 7rem;
-	}
 
-	.heading-section li img {
-		height: 125px;
-		width: 125px;
-	}
-
-	.input-section {
-		width: 60%;
-	}
-}
-
-
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1024px) {
 	.heading-section li h1 {
 		font-size: 4rem;
 		padding: 0 5rem;
@@ -234,33 +223,38 @@ body {
 	}
 
 	.input-section {
-		width: 65%;
-	}
-}
-
-
-@media only screen and (max-width: 767px) {
-	.heading-section li h1 {
-		font-size: 3.5rem;
-		padding: 0 4rem;
-	}
-
-	.heading-section li img {
-		height: 110px;
-		width: 110px;
-	}
-
-	.input-section {
 		width: 75%;
 	}
 
-	.input-section .content p {
-		font-size: 1.1rem;
+	.item-list-section {
+		width: 80%;
 	}
+
+	.item-list-section .item-list li {
+		font-size: 0.9rem;
+		letter-spacing: 0.05rem;
+	}
+
+	/*.item-list-section .item-list .checkbox {
+		text-align: center;
+		width: 15%;
+	}
+
+	.item-list-section .item-list .delete {
+		text-align: center;
+		width: 10%;
+	}
+
+	.item-list-section .item-list span {
+		width: 75%;
+		text-align: left;
+		display: inline-block;
+	}*/
 }
 
 
-@media only screen and (max-width: 670px) {
+
+@media only screen and (max-width: 768px) {
 	.heading-section li h1 {
 		font-size: 3.5rem;
 		padding: 0 3.5rem;
@@ -271,27 +265,8 @@ body {
 		width: 110px;
 	}
 
-	.input-section {
-		width: 80%;
-	}
-
-	.input-section .content p {
-		font-size: 1rem;
-		letter-spacing: 0.1rem;
-		line-height: 1.25rem;
-		padding-top: 3rem;
-	}
-}
-
-@media only screen and (max-width: 647px) {
-	.heading-section li h1 {
-		font-size: 3rem;
-		padding: 0 3.5rem;
-	}
-
-	.heading-section li img {
-		height: 110px;
-		width: 110px;
+	.heading-section li img.image {
+		display: none;
 	}
 
 	.heading-section ul li {
@@ -299,23 +274,74 @@ body {
 		display: block;
 	}
 
-	.heading-section li img.image {
-		display: none;
-	}
-
 	.input-section {
-		width: 88%;
-	}
-}
-
-@media only screen and (max-width: 542px) {
-	.input-section {
-		width: 98%;
+		width: 100%;
 	}
 
 	.input-section .content p {
-		font-size: 0.94rem;
-		padding-top: 2.75rem;
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+
+	.input-section .input-text {
+		width: 65%;
+	}
+
+	.item-list-section {
+		width: 100%;
+	}
+
+	.item-list-section .item-list li {
+		font-size: 0.85rem;
+		letter-spacing: 0.05rem;
+	}
+
+	.clear-list-section .clear-all {
+		margin-top: 1rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.content {
+		width: 90%;
+	}
+
+	.heading-section li h1 {
+		font-size: 2.5rem;
+		padding: 0 3.5rem;
+	}
+
+	.heading-section li img {
+		height: 110px;
+		width: 110px;
+	}
+
+	.input-section .content p {
+		font-size: 0.9rem;
+	}
+
+	.item-list-section .item-list li {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.heading-section li h1 {
+		font-size: 1.8rem;
+		padding: 0 3.5rem;
+	}
+
+	.heading-section li img {
+		height: 100px;
+		width: 100px;
+	}
+
+	.input-section .content p {
+		font-size: 0.85rem;
+	}
+
+	.clear-list-section .clear-all {
+		width: 100%;
 	}
 }
 

@@ -42,9 +42,9 @@ function deleteItem() {
 function clearAll() {
 	$(document).on('click', '.clear-all', function(){
     	$('.item-list').empty();
-    	submissions = 0;
+    	console.log('Items deleted');
 });
-	console.log('Items deleted');
+	
 }
 
 $(function() {
