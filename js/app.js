@@ -43,8 +43,7 @@ function clearAll() {
 	$(document).on('click', '.clear-all', function(){
     	$('.item-list').empty();
     	console.log('Items deleted');
-});
-	
+	});
 }
 
 $(function() {

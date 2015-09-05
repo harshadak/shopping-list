@@ -127,6 +127,10 @@ body {
 	padding-left: 0.5rem;
 }
 
+.input-section .input-text:focus {
+	outline: 0;
+}
+
 .input-section #submit-item {
 	width: 3rem;
 	height: 2.25rem;
@@ -135,6 +139,10 @@ body {
 	background-color: #FF4444;
 	border-style: none;
 	color: #fff;
+}
+
+.input-section #submit-item:focus {
+	outline: 0;
 }
 
 .input-section #submit-item:hover {
@@ -199,6 +207,10 @@ body {
 	height: 2.25rem;
 	border-radius: 0.25rem;
 	letter-spacing: 1px;
+}
+
+.clear-list-section .clear-all:focus {
+	outline: 0;
 }
 
 .clear-list-section .clear-all:hover {
