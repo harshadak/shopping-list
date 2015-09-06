@@ -24,7 +24,9 @@ function addItem() {
 // Function to check off and uncheck the items in the shopping list
 
 function checkItem() {
-	
+	$(this).parent().toggleClass('checked');
+	// Moves checked items to the bottom of the list
+	$('.item-list').find('.checked').appendTo('.item-list');
 }
 
 
@@ -55,6 +57,7 @@ $(function() {
 
     add.on('click', addItem);
     list.on('click','.delete', deleteItem);
+    list.on('click','.checkbox',checkItem);
     $('.clear-all').on('click', clearAll);
     itemValue.on('keypress', function(e){
     	if (e.which == 13) {

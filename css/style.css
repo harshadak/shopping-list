@@ -161,6 +161,7 @@ body {
 .item-list-section .item-list li {
 	font-size: 1rem;
 	margin: 1.25rem 0;
+	letter-spacing: 0.05rem;
 	/*width: 10rem;*/
 }
 
@@ -172,7 +173,7 @@ body {
 .item-list-section .item-list li button:hover {
 	color: #fff;
 	background-color: #FF3F3F;
-	border-radius: 50%
+	border-radius: 50%;
 }
 
 .item-list-section .item-list .checkbox {
@@ -194,14 +195,31 @@ body {
 	/*border: 1px solid purple;*/
 }
 
-/* Adding tick class for Toggling */
+/* Adding checked class for Toggling */
 
-.tick {
+.checked {
 	display: block;
-	background-color: purple;
+	height: 2rem;
+	padding-top: 0.5rem;
+	background-color: #EA7F7F;
 	color: #fff;
 	font-weight: 300;
 }
+
+.checkbox:focus, .delete:focus {
+	outline: none;
+}
+
+.checked .checkbox, .checked .delete {
+	color: blue;
+	border-radius: 0;
+	background-color: #EA7F7F;
+}
+
+.checked .checkbox:hover, .checked .delete:hover {
+	color: #000;
+}
+
 
 
 
