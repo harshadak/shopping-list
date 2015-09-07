@@ -178,18 +178,21 @@ body {
 
 .item-list-section .item-list .checkbox {
 	text-align: center;
-	width: 10%;
+	padding: 0.2rem 0.35rem;
+	/*width: 10%;*/
 	/*border: 1px solid red;*/
 }
 
 .item-list-section .item-list .delete {
 	text-align: center;
-	width: 10%;
+	padding: 0.25rem 0.5rem;
+	/*width: 10%;*/
 	/*border: 1px solid green;*/
 }
 
 .item-list-section .item-list span {
 	width: 80%;
+	padding-left: 0.75rem;
 	text-align: left;
 	display: inline-block;
 	/*border: 1px solid purple;*/
@@ -211,13 +214,13 @@ body {
 }
 
 .checked .checkbox, .checked .delete {
-	color: blue;
+	color: #fff;
 	border-radius: 0;
-	background-color: #EA7F7F;
+	background-color: transparent !important;
 }
 
 .checked .checkbox:hover, .checked .delete:hover {
-	color: #000;
+	color: #000 !important;
 }
 
 
