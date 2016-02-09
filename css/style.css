@@ -1,397 +1,408 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-
-
-
 /*---------------------------- My CSS Styles------------------------*/
+
 
 /* Header CSS */
 
 .heading-section {
-	width: 100%;
-	height: 15rem;
-	text-align: center;
-	background-color: #EA7F7F;
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+    background-color: #EA7F7F;
 }
-
 .heading-section ul li {
-	padding-top: 3rem;
-	display: inline-block;
-	vertical-align: bottom;
+    padding-top: 3rem;
+    display: inline-block;
+    vertical-align: bottom;
 }
-
 .heading-section li img {
-	border-radius: 50%;
+    border-radius: 50%;
 }
-
 .heading-section li h1 {
-	font-size: 5.5rem;
-	font-weight: 300;
-	color: #fff;
-	padding: 0 8rem;
+    font-size: 5.5rem;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 8rem;
 }
-
-
-
 
 /* Common styles*/
 
 body {
-	font-family: 'Poiret One', cursive, sans-serif;
+    font-family: 'Poiret One', cursive, sans-serif;
 }
-
 .content {
-	text-align: center;
-	margin: 0 auto;
-	width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
 }
-
-.input-section, .item-list-section, .clear-list-section {
-	width: 50%;
-	margin: 0 auto;
+.input-section,
+.item-list-section,
+.clear-list-section {
+    width: 50%;
+    margin: 0 auto;
 }
-
-
-
 
 /* Input section CSS */
 
 .input-section {
-	height: 13rem;
+    height: 13rem;
 }
-
 .input-section .content p {
-	font-size: 1.15rem;
-	font-style: oblique;
-	letter-spacing: 0.1rem;
-	line-height: 1.25rem;
-	padding-top: 3rem;
+    font-size: 1.15rem;
+    font-style: oblique;
+    letter-spacing: 0.1rem;
+    line-height: 1.25rem;
+    padding-top: 3rem;
 }
-
 .input-section .content .input {
-	margin: 2rem 0;
+    margin: 2rem 0;
 }
-
 .input-section .input-text {
-	width: 60%;
-	height: 2rem;
-	border: 1px solid #D8D8D8;
-	border-radius: 0.25rem;
-	padding-left: 0.5rem;
+    width: 60%;
+    height: 2rem;
+    border: 1px solid #D8D8D8;
+    border-radius: 0.25rem;
+    padding-left: 0.5rem;
 }
-
 .input-section .input-text:focus {
-	outline: 0;
+    outline: 0;
 }
-
 .input-section #submit-item {
-	width: 3rem;
-	height: 2.25rem;
-	border-radius: 0.25rem;
-	margin-left: 0.5rem;
-	background-color: #FF4444;
-	border-style: none;
-	color: #fff;
+    width: 3rem;
+    height: 2.25rem;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+    background-color: #FF4444;
+    border-style: none;
+    color: #fff;
 }
-
 .input-section #submit-item:focus {
-	outline: 0;
+    outline: 0;
 }
-
 .input-section #submit-item:hover {
-	background-color: #D30000;
+    background-color: #D30000;
 }
-
-
-
 
 /* Item list section CSS */
 
 .item-list-section {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
-
 .item-list-section .item-list li {
-	font-size: 1rem;
-	margin: 1.25rem 0;
-	letter-spacing: 0.05rem;
-	/*width: 10rem;*/
+    font-size: 1rem;
+    margin: 1.25rem 0;
+    letter-spacing: 0.05rem;
+    /*width: 10rem;*/
 }
-
 .item-list-section .item-list li button {
-	border: none;
-	background-color: #fff;
+    border: none;
+    background-color: #fff;
 }
-
 .item-list-section .item-list li button:hover {
-	color: #fff;
-	background-color: #FF3F3F;
-	border-radius: 50%;
+    color: #fff;
+    background-color: #FF3F3F;
+    border-radius: 50%;
 }
-
 .item-list-section .item-list .checkbox {
-	text-align: center;
-	padding: 0.2rem 0.35rem;
-	/*width: 10%;*/
-	/*border: 1px solid red;*/
+    text-align: center;
+    padding: 0.2rem 0.35rem;
+    /*width: 10%;*/
+    /*border: 1px solid red;*/
 }
-
 .item-list-section .item-list .delete {
-	text-align: center;
-	padding: 0.25rem 0.5rem;
-	/*width: 10%;*/
-	/*border: 1px solid green;*/
+    text-align: center;
+    padding: 0.25rem 0.5rem;
+    /*width: 10%;*/
+    /*border: 1px solid green;*/
 }
-
 .item-list-section .item-list span {
-	width: 80%;
-	padding-left: 0.75rem;
-	text-align: left;
-	display: inline-block;
-	/*border: 1px solid purple;*/
+    width: 80%;
+    padding-left: 0.75rem;
+    text-align: left;
+    display: inline-block;
+    /*border: 1px solid purple;*/
 }
 
 /* Adding checked class for Toggling */
 
 .checked {
-	display: block;
-	height: 2rem;
-	padding-top: 0.5rem;
-	background-color: #EA7F7F;
-	color: #fff;
-	font-weight: 300;
+    display: block;
+    height: 2rem;
+    padding-top: 0.5rem;
+    background-color: #EA7F7F;
+    color: #fff;
+    font-weight: 300;
 }
-
-.checkbox:focus, .delete:focus {
-	outline: none;
+.checkbox:focus,
+.delete:focus {
+    outline: none;
 }
-
-.checked .checkbox, .checked .delete {
-	color: #fff;
-	border-radius: 0;
-	background-color: transparent !important;
+.checked .checkbox,
+.checked .delete {
+    color: #fff;
+    border-radius: 0;
+    background-color: transparent !important;
 }
-
-.checked .checkbox:hover, .checked .delete:hover {
-	color: #000 !important;
+.checked .checkbox:hover,
+.checked .delete:hover {
+    color: #000 !important;
 }
-
-
-
-
 
 /* Clear list section CSS */
 
 .clear-list-section .clear-all {
-	background-color: #FF4444;
-	border-style: none;
-	color: #fff;
-	width: 12rem;
-	height: 2.25rem;
-	border-radius: 0.25rem;
-	letter-spacing: 1px;
+    background-color: #FF4444;
+    border-style: none;
+    color: #fff;
+    width: 12rem;
+    height: 2.25rem;
+    border-radius: 0.25rem;
+    letter-spacing: 1px;
 }
-
 .clear-list-section .clear-all:focus {
-	outline: 0;
+    outline: 0;
 }
-
 .clear-list-section .clear-all:hover {
-	background-color: #D30000;
+    background-color: #D30000;
 }
-
-
-
 
 /* Responsive design */
 
-
 @media only screen and (max-width: 1024px) {
-	.heading-section li h1 {
-		font-size: 4rem;
-		padding: 0 5rem;
-	}
+    .heading-section li h1 {
+        font-size: 4rem;
+        padding: 0 5rem;
+    }
+    .heading-section li img {
+        height: 115px;
+        width: 115px;
+    }
+    .input-section {
+        width: 75%;
+    }
+    .item-list-section {
+        width: 80%;
+    }
+    .item-list-section .item-list li {
+        font-size: 0.9rem;
+        letter-spacing: 0.05rem;
+    }
+    /*.item-list-section .item-list .checkbox {
+        text-align: center;
+        width: 15%;
+    }
 
-	.heading-section li img {
-		height: 115px;
-		width: 115px;
-	}
+    .item-list-section .item-list .delete {
+        text-align: center;
+        width: 10%;
+    }
 
-	.input-section {
-		width: 75%;
-	}
-
-	.item-list-section {
-		width: 80%;
-	}
-
-	.item-list-section .item-list li {
-		font-size: 0.9rem;
-		letter-spacing: 0.05rem;
-	}
-
-	/*.item-list-section .item-list .checkbox {
-		text-align: center;
-		width: 15%;
-	}
-
-	.item-list-section .item-list .delete {
-		text-align: center;
-		width: 10%;
-	}
-
-	.item-list-section .item-list span {
-		width: 75%;
-		text-align: left;
-		display: inline-block;
-	}*/
+    .item-list-section .item-list span {
+        width: 75%;
+        text-align: left;
+        display: inline-block;
+    }*/
 }
-
-
-
 @media only screen and (max-width: 768px) {
-	.heading-section li h1 {
-		font-size: 3.5rem;
-		padding: 0 3.5rem;
-	}
-
-	.heading-section li img {
-		height: 110px;
-		width: 110px;
-	}
-
-	.heading-section li img.image {
-		display: none;
-	}
-
-	.heading-section ul li {
-		padding-top: 1.5rem;
-		display: block;
-	}
-
-	.input-section {
-		width: 100%;
-	}
-
-	.input-section .content p {
-		font-size: 1rem;
-		line-height: 1rem;
-	}
-
-	.input-section .input-text {
-		width: 65%;
-	}
-
-	.item-list-section {
-		width: 100%;
-	}
-
-	.item-list-section .item-list li {
-		font-size: 0.85rem;
-		letter-spacing: 0.05rem;
-	}
-
-	.clear-list-section .clear-all {
-		margin-top: 1rem;
-	}
+    .heading-section li h1 {
+        font-size: 3.5rem;
+        padding: 0 3.5rem;
+    }
+    .heading-section li img {
+        height: 110px;
+        width: 110px;
+    }
+    .heading-section li img.image {
+        display: none;
+    }
+    .heading-section ul li {
+        padding-top: 1.5rem;
+        display: block;
+    }
+    .input-section {
+        width: 100%;
+    }
+    .input-section .content p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .input-section .input-text {
+        width: 65%;
+    }
+    .item-list-section {
+        width: 100%;
+    }
+    .item-list-section .item-list li {
+        font-size: 0.85rem;
+        letter-spacing: 0.05rem;
+    }
+    .clear-list-section .clear-all {
+        margin-top: 1rem;
+    }
 }
-
 @media only screen and (max-width: 480px) {
-	.content {
-		width: 90%;
-	}
-
-	.heading-section li h1 {
-		font-size: 2.5rem;
-		padding: 0 3.5rem;
-	}
-
-	.heading-section li img {
-		height: 110px;
-		width: 110px;
-	}
-
-	.input-section .content p {
-		font-size: 0.9rem;
-	}
-
-	.item-list-section .item-list li {
-		font-size: 0.8rem;
-	}
+    .content {
+        width: 90%;
+    }
+    .heading-section li h1 {
+        font-size: 2.5rem;
+        padding: 0 3.5rem;
+    }
+    .heading-section li img {
+        height: 110px;
+        width: 110px;
+    }
+    .input-section .content p {
+        font-size: 0.9rem;
+    }
+    .item-list-section .item-list li {
+        font-size: 0.8rem;
+    }
 }
-
 @media only screen and (max-width: 320px) {
-	.heading-section li h1 {
-		font-size: 1.8rem;
-		padding: 0 3.5rem;
-	}
-
-	.heading-section li img {
-		height: 100px;
-		width: 100px;
-	}
-
-	.input-section .content p {
-		font-size: 0.85rem;
-	}
-
-	.clear-list-section .clear-all {
-		width: 100%;
-	}
+    .heading-section li h1 {
+        font-size: 1.8rem;
+        padding: 0 3.5rem;
+    }
+    .heading-section li img {
+        height: 100px;
+        width: 100px;
+    }
+    .input-section .content p {
+        font-size: 0.85rem;
+    }
+    .clear-list-section .clear-all {
+        width: 100%;
+    }
 }
-
-
-
-
-
-
-
-
-
